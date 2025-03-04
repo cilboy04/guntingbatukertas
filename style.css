@@ -1,0 +1,83 @@
+:root {
+    box-sizing: border-box;
+}
+
+html, body, * {
+    padding: 0;
+    margin: 0;
+}
+
+#apk {
+    height: 100vh;
+    justify-content: center;
+}
+
+.ringkasan {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border: 3px solid rgb(241, 168, 58);
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 10px 10px;
+}
+
+.judul {
+    text-align: center;
+}
+
+#hasil {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 25px;
+}
+
+.pilihan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    margin: 10px 15px;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.pilihan p {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.emot {
+    width: 100px;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(255, 236, 127);
+}
+
+.emot:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+    border: 1px solid #444;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+    -webkit-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    -moz-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    -ms-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+    -o-transition: cubic-bezier(0.215, 0.610, 0.355, 1) ease-in-out;
+}
